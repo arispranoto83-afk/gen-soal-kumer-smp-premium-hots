@@ -1,0 +1,15 @@
+HAK CIPTA DAN LISENSI
+
+Generator Soal HOTS SMP
+Hak Cipta © 2026 ADP Development Education. Seluruh hak dilindungi undang-undang.
+
+Aplikasi ini beserta kode sumber, desain, logo, dan kontennya merupakan karya
+cipta ADP Development Education. Tanpa izin tertulis dari pengembang, pihak lain
+dilarang menyalin, mengubah, merekayasa balik, memperjualbelikan, atau
+mendistribusikan ulang aplikasi ini, baik seluruhnya maupun sebagian, serta
+menghapus atau mengubah keterangan hak cipta dan logo pengembang.
+
+Pengguna diberi hak memakai aplikasi ini sesuai peruntukannya untuk menyusun soal.
+Soal dan dokumen yang dihasilkan pengguna menjadi milik pengguna.
+
+Pustaka pihak ketiga: docx (MIT License) tetap tunduk pada lisensinya masing-masing.

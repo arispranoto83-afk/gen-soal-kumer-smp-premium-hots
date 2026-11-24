@@ -1,0 +1,13 @@
+PETUNJUK PASANG DI HOSTING
+
+1. Unggah SELURUH isi folder ini ke hosting HTTPS (Netlify, Cloudflare Pages, GitHub Pages, atau cPanel).
+2. Netlify/Cloudflare Pages memakai berkas _headers. cPanel/Apache memakai berkas .htaccess. Pastikan keduanya ikut terunggah.
+3. Atur izin hosting agar hanya admin yang bisa mengubah berkas (akun/FTP/Git dengan 2FA). Pengguna biasa hanya mengunduh, tidak dapat mengubah berkas di server.
+4. Untuk membatasi salinan di domain lain, bangun ulang dengan:  node tools/build.cjs --hosts=domainanda.com
+5. Setiap pembaruan: bangun ulang, lalu unggah ulang seluruh isi folder.
+
+CATATAN PEMBARUAN (rev5)
+- Tipe soal baru: HOTS (C4-C6), MOTS (C3-C4), LOTS (C1-C3), atau Campuran. Campuran per bentuk soal: LOTS (C1-C2), MOTS (C3-C4), dan HOTS (C5-C6) dengan porsi sekitar 30%, 30%, dan 40%. Berlaku untuk mode AI maupun offline, kisi-kisi, kartu soal, pedoman, dan dokumen Word.
+- Batas total soal menjadi 50 butir.
+- Pembuatan soal AI diperbaiki: butir valid tidak hilang jika ada butir bermasalah; percobaan ulang otomatis dengan jeda; butir yang tetap gagal diisi template offline dan ditandai "perlu diperiksa".
+- Setelah mengunggah, buka aplikasi dua kali agar service worker memuat versi baru.
